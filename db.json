@@ -1,6 +1,7 @@
 {
   "sucursal": {
-    "direccion": "Ave. Revolución #3000 Sur, Esq. Covarrubias",
+    "responseCode": 200,
+    "direccion": "Av. Revolución #3000 Sur, Esq. Covarrubias",
     "sucursales": [
       {
         "tipo": 1,
@@ -8,36 +9,54 @@
         "cajeros": [
           {
             "id_cajero": "N11351",
-            "incidentes": [
+            "incidencias": [
               { "nombre": "Pantalla rota", "cantidad": 2 },
               { "nombre": "Teclado sucio", "cantidad": 2 },
               { "nombre": "Sin dinero", "cantidad": 1 }
             ]
           },
-          { "id_cajero": "N11352", "incidentes": [] },
-          { "id_cajero": "N11353", "incidentes": [] },
-          { "id_cajero": "N11440", "incidentes": [] },
-          { "id_cajero": "N11441", "incidentes": [] }
+          { "id_cajero": "N11352", "incidencias": [] },
+          { "id_cajero": "N11353", "incidencias": [] },
+          { "id_cajero": "N11440", "incidencias": [] },
+          { "id_cajero": "N11441", "incidencias": [] }
         ]
       }
     ]
   },
 
-  "incidentes": {
+  "guardar": [
+    {
+      "id": 1,
+      "responseCode": 200,
+      "descripcion": "Operación exitosa",
+      "resultado": []
+    }
+  ],
+
+  "encuesta": [
+    {
+      "id": 1,
+      "ticketId": 10033,
+      "cajero": "N342453",
+      "estado": "cerrado"
+    }
+  ],
+
+  "encuestaRespuesta": {
     "responseCode": 200,
-    "descripcion": "Operacion exitosa",
-    "resultado": []
+    "descripcion": "Operación exitosa",
+    "finalizado": true
   },
 
   "seguimientos": [
     {
       "id": "TICKET123",
       "responseCode": 200,
-      "descripcion": "Operacion exitosa",
+      "descripcion": "Operación exitosa",
       "resultado": [
         {
           "fecha": "2025-07-16T12:30:29",
-          "comentarios": "Remedy: TERMINADO - Se valida atm dotado, en línea y servicio ultima disposición 12:30"
+          "comentarios": "Remedy: TERMINADO - Cajero dotado, en línea y en servicio última disposición 12:30"
         },
         {
           "fecha": "2025-07-16T12:30:29",
@@ -45,11 +64,11 @@
         },
         {
           "fecha": "2025-07-16T12:30:01",
-          "comentarios": "Remedy: Servicios bancarios informa de dotara atm el dia 16-07-2025 a las 12:30"
+          "comentarios": "Remedy: Servicios bancarios informa que dotará el cajero el 16-07-2025 a las 12:30"
         },
         {
           "fecha": "2025-07-16T12:29:24",
-          "comentarios": "Remedy: EN ATENCION - Se canaliza evento con servicios bancarios para dotacion"
+          "comentarios": "Remedy: EN ATENCIÓN - Se canaliza evento con servicios bancarios para dotación"
         },
         {
           "fecha": "2025-07-16T12:29:24",
@@ -61,5 +80,31 @@
         }
       ]
     }
-  ]
+  ],
+
+  "sucursalAsignada": [
+    {
+      "id": 1,
+      "cr": "324324",
+      "correo": "juan@dominio.com"
+    }
+  ],
+
+  "sucursalAsignadaExito": {
+    "responseCode": 200,
+    "descripcion": "Operación exitosa"
+  },
+
+  "sucursalAsignadaError": {
+    "responseCode": 404,
+    "descripcion": "Operación fallida",
+    "resultado": {
+      "error": "No pudimos encontrar el CR proporcionado"
+    }
+  },
+
+  "primerAcceso" : {
+    "responseCode": 200,
+    "descripcion": "Operación exitosa"
+  }
 }
