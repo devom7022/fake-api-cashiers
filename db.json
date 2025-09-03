@@ -48,9 +48,7 @@
     "finalizado": true
   },
 
-  "seguimientos": [
-    {
-      "id": "TICKET123",
+  "seguimientos":  {
       "responseCode": 200,
       "descripcion": "Operación exitosa",
       "resultado": [
@@ -79,8 +77,7 @@
           "comentarios": "Ticket creado desde la app móvil."
         }
       ]
-    }
-  ],
+    },
 
   "sucursalAsignada": [
     {
