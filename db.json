@@ -79,24 +79,28 @@
       ]
     },
 
-  "sucursalAsignada": [
-    {
-      "id": 1,
-      "cr": "324324",
-      "correo": "juan@dominio.com"
-    }
-  ],
-
   "sucursalAsignadaExito": {
     "responseCode": 200,
-    "descripcion": "Operación exitosa"
+    "descripcion": "Operación exitosa",
+    "resultado": {
+      "message": "",
+      "branchAssigned": true,
+    }
   },
-
+  "sucursalAsignadaNotFound": {
+    "responseCode": 200,
+    "descripcion": "Operación exitosa",
+    "resultado": {
+      "message": "No pudimos encontrar el CR proporcionado",
+      "branchAssigned": true,
+    }
+  },
   "sucursalAsignadaError": {
     "responseCode": 404,
     "descripcion": "Operación fallida",
     "resultado": {
-      "error": "No pudimos encontrar el CR proporcionado"
+      "error": "No pudimos encontrar el CR proporcionado",
+      "branchAssigned": false,
     }
   },
 
