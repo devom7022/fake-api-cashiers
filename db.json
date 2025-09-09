@@ -108,6 +108,13 @@
   "primerAcceso": {
     "responseCode": 200,
     "descripcion": "Operación exitosa",
-    "onboardingPendiente": false
+  },
+
+  "buscarCrFound" : {
+    "existeCr" : true
+  },
+
+  "buscarCrNotFound" : {
+    "existeCr" : false
   }
 }
