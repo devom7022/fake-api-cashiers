@@ -91,13 +91,9 @@
   },
 
   "sucursalAsignadaExito": {
-    "responseCode": 200,
-    "descripcion": "Operación exitosa",
-    "resultado": {
       "message": "Sucursal asignada correctamente",
       "branchAssigned": true
-    }
-  },
+    },
 
   "sucursalAsignadaNotFound": {
     "responseCode": 200,
