@@ -92,7 +92,7 @@
 
   "sucursalAsignadaExito": {
       "message": "Sucursal asignada correctamente",
-      "branchAssigned": true
+      "branchAssigned": false
     },
 
   "sucursalAsignadaNotFound": {
