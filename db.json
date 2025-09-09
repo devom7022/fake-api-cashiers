@@ -119,7 +119,7 @@
   "buscarCrFound": {
     "responseCode": 200,
     "descripcion": "CR encontrado",
-    "response" : {
+    "resultado" : {
        "existeCr": true
     }
   },
@@ -127,7 +127,7 @@
   "buscarCrNotFound": {
     "responseCode": 404,
     "descripcion": "CR no encontrado",
-      "response" : {
+      "resultado" : {
        "existeCr": true
     }
   }
