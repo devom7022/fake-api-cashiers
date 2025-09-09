@@ -1,6 +1,8 @@
 {
   "sucursal": {
     "responseCode": 200,
+    "descripcion": "Operación exitosa",
+    "cr": "324324",
     "direccion": "Av. Revolución #3000 Sur, Esq. Covarrubias",
     "sucursales": [
       {
@@ -9,16 +11,18 @@
         "cajeros": [
           {
             "id_cajero": "N11351",
+            "estatus": "operativo",
+            "ultimoMantenimiento": "2025-07-10T09:15:00Z",
             "incidencias": [
               { "nombre": "Pantalla rota", "cantidad": 2 },
               { "nombre": "Teclado sucio", "cantidad": 2 },
               { "nombre": "Sin dinero", "cantidad": 1 }
             ]
           },
-          { "id_cajero": "N11352", "incidencias": [] },
-          { "id_cajero": "N11353", "incidencias": [] },
-          { "id_cajero": "N11440", "incidencias": [] },
-          { "id_cajero": "N11441", "incidencias": [] }
+          { "id_cajero": "N11352", "estatus": "operativo", "incidencias": [] },
+          { "id_cajero": "N11353", "estatus": "operativo", "incidencias": [] },
+          { "id_cajero": "N11440", "estatus": "operativo", "incidencias": [] },
+          { "id_cajero": "N11441", "estatus": "operativo", "incidencias": [] }
         ]
       }
     ]
@@ -38,7 +42,8 @@
       "id": 1,
       "ticketId": 10033,
       "cajero": "N342453",
-      "estado": "cerrado"
+      "estado": "cerrado",
+      "fechaCreacion": "2025-07-16T12:31:00Z"
     }
   ],
 
@@ -48,64 +53,76 @@
     "finalizado": true
   },
 
-  "seguimientos":  {
-      "responseCode": 200,
-      "descripcion": "Operación exitosa",
-      "resultado": [
-        {
-          "fecha": "2025-07-16T12:30:29",
-          "comentarios": "Remedy: TERMINADO - Cajero dotado, en línea y en servicio última disposición 12:30"
-        },
-        {
-          "fecha": "2025-07-16T12:30:29",
-          "comentarios": "Cambio de estatus: CERRADO"
-        },
-        {
-          "fecha": "2025-07-16T12:30:01",
-          "comentarios": "Remedy: Servicios bancarios informa que dotará el cajero el 16-07-2025 a las 12:30"
-        },
-        {
-          "fecha": "2025-07-16T12:29:24",
-          "comentarios": "Remedy: EN ATENCIÓN - Se canaliza evento con servicios bancarios para dotación"
-        },
-        {
-          "fecha": "2025-07-16T12:29:24",
-          "comentarios": "Cambio de estatus: EN PROCESO"
-        },
-        {
-          "fecha": "2025-07-16T11:44:12",
-          "comentarios": "Ticket creado desde la app móvil."
-        }
-      ]
-    },
+  "seguimientos": {
+    "responseCode": 200,
+    "descripcion": "Operación exitosa",
+    "resultado": [
+      {
+        "ticketId": 10033,
+        "fecha": "2025-07-16T12:30:29Z",
+        "comentarios": "Cambio de estatus: CERRADO"
+      },
+      {
+        "ticketId": 10033,
+        "fecha": "2025-07-16T12:30:29Z",
+        "comentarios": "Remedy: TERMINADO - Cajero dotado, en línea y en servicio. Última disposición 12:30"
+      },
+      {
+        "ticketId": 10033,
+        "fecha": "2025-07-16T12:30:01Z",
+        "comentarios": "Remedy: Servicios bancarios informa que dotará el cajero el 16-07-2025 a las 12:30"
+      },
+      {
+        "ticketId": 10033,
+        "fecha": "2025-07-16T12:29:24Z",
+        "comentarios": "Cambio de estatus: EN PROCESO"
+      },
+      {
+        "ticketId": 10033,
+        "fecha": "2025-07-16T12:29:24Z",
+        "comentarios": "Remedy: EN ATENCIÓN - Se canaliza evento con servicios bancarios para dotación"
+      },
+      {
+        "ticketId": 10033,
+        "fecha": "2025-07-16T11:44:12Z",
+        "comentarios": "Ticket creado desde la app móvil."
+      }
+    ]
+  },
 
   "sucursalAsignadaExito": {
     "responseCode": 200,
     "descripcion": "Operación exitosa",
     "resultado": {
-      "message": "",
-      "branchAssigned": true,
+      "cr": "324324",
+      "message": "Sucursal asignada correctamente",
+      "branchAssigned": true
     }
   },
+
   "sucursalAsignadaNotFound": {
     "responseCode": 200,
     "descripcion": "Operación exitosa",
     "resultado": {
+      "cr": "999999",
       "message": "No pudimos encontrar el CR proporcionado",
-      "branchAssigned": true,
+      "branchAssigned": false
     }
   },
+
   "sucursalAsignadaError": {
     "responseCode": 404,
     "descripcion": "Operación fallida",
     "resultado": {
+      "cr": "999999",
       "error": "No pudimos encontrar el CR proporcionado",
-      "branchAssigned": false,
+      "branchAssigned": false
     }
   },
 
-  "primerAcceso" : {
+  "primerAcceso": {
     "responseCode": 200,
-    "descripcion": "Operación exitosa"
+    "descripcion": "Operación exitosa",
+    "onboardingPendiente": false
   }
 }
