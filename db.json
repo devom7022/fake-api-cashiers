@@ -91,30 +91,40 @@
   },
 
   "sucursalAsignadaExito": {
-      "message": "",
-      "branchAssigned": true
-    },
+    "responseCode": 200,
+    "descripcion": "Sucursal asignada correctamente",
+    "branchAssigned": true,
+    "message": ""
+  },
 
-  "sucursalAsignadaNotFound":  {
-      "message": "",
-      "branchAssigned": false
-    },
+  "sucursalAsignadaNotFound": {
+    "responseCode": 404,
+    "descripcion": "No se encontró la sucursal",
+    "branchAssigned": false,
+    "message": ""
+  },
 
   "sucursalAsignadaError": {
-      "error": "No pudimos encontrar el CR proporcionado",
-      "branchAssigned": false
-    },
+    "responseCode": 400,
+    "descripcion": "Solicitud inválida",
+    "branchAssigned": false,
+    "error": "No pudimos encontrar el CR proporcionado"
+  },
 
   "primerAcceso": {
     "responseCode": 200,
-    "descripcion": "Operación exitosa",
+    "descripcion": "Operación exitosa"
   },
 
-  "buscarCrFound" : {
-    "existeCr" : true,
+  "buscarCrFound": {
+    "responseCode": 200,
+    "descripcion": "CR encontrado",
+    "existeCr": true
   },
 
-  "buscarCrNotFound" : {
-    "existeCr" : false.
+  "buscarCrNotFound": {
+    "responseCode": 404,
+    "descripcion": "CR no encontrado",
+    "existeCr": false
   }
 }
