@@ -128,7 +128,7 @@
     "responseCode": 404,
     "descripcion": "CR no encontrado",
       "resultado" : {
-       "existeCr": true
+       "existeCr": false
     }
   }
 }
