@@ -111,10 +111,10 @@
   },
 
   "buscarCrFound" : {
-    "existeCr" : true
+    "existeCr" : true,
   },
 
   "buscarCrNotFound" : {
-    "existeCr" : false
+    "existeCr" : false.
   }
 }
