@@ -3,133 +3,132 @@
     "responseCode": 200,
     "descripcion": "Operación exitosa",
     "resultado": [
+      {
+        "latitud": "19.4908",
+        "longitud": "-99.13455",
+        "distanciaCajeros": 1.396211513006,
+        "cajeros": [
           {
-            "latitud": "19.4908",
-            "longitud": "-99.13455",
-            "distanciaCajeros": 1.396211513006,
-            "cajeros": [
-
-              {
-                "codigo": "NM0722",
-                "nombre": "SUC LINDAVISTA MEXICO",
-                "domicilio": "AVE. MONTEVIDEO # 374 ESQ TRUJILLO",
-                "cp": 7300,
-                "tipoUnidad": "SUCURSAL",
-                "ciudades": {
-                  "id" : null,
-                  "claveEntidad" : null,
-                  "claveMunicipio" : null,
-                  "claveLocalidad" : null,
-                  "nombreLocalidad" null,
-                  "latitud": "19.4908",
-                  "longitud": "-99.13455",
-                },
-                "incidencias": []
-              },
-              {
-                "codigo": "N20838",
-                "nombre": "Lindavista México II",
-                "domicilio": "AV MONTEVIDEO ESQ. TRUJILLO 374",
-                "cp": 7300,
-                "tipoUnidad": "SUCURSAL",
-                "ciudades": {
-                  "id" : null,
-                  "claveEntidad" : null,
-                  "claveMunicipio" : null,
-                  "claveLocalidad" : null,
-                  "nombreLocalidad" null,
-                  "latitud": "19.4908",
-                  "longitud": "-99.13455",
-                },
-                "incidencias": [
-                  { "nombre": "Pantalla rota", "cantidad": 2 },
-                  { "nombre": "Teclado sucio", "cantidad": 2 },
-                  { "nombre": "Sin dinero", "cantidad": 1 }
-                ]
-              },
-              {
-                "codigo": "N22432",
-                "nombre": "SUC LINDAVISTA MEXICO03",
-                "domicilio": "MONTEVIDEO 374",
-                "cp": 7300,
-                "tipoUnidad": "SUCURSAL",
-                "ciudades": {
-                  "id" : null,
-                  "claveEntidad" : null,
-                  "claveMunicipio" : null,
-                  "claveLocalidad" : null,
-                  "nombreLocalidad" null,
-                  "latitud": "19.4908",
-                  "longitud": "-99.13455",
-                },
-                "incidencias": []
-              }
-              {
-                "codigo": "N22430",
-                "nombre": "SUC LINDAVISTA MEXICO01",
-                "domicilio": "MONTEVIDEO 374",
-                "cp": 7300,
-                "tipoUnidad": "SUCURSAL",
-                "ciudades": {
-                  "id" : null,
-                  "claveEntidad" : null,
-                  "claveMunicipio" : null,
-                  "claveLocalidad" : null,
-                  "nombreLocalidad" null,
-                  "latitud": "19.4908",
-                  "longitud": "-99.13455",
-                },
-                "incidencias": [
-                  { "nombre": "Pantalla rota", "cantidad": 1 },
-                ]
-              },
-              {
-                "codigo": "N22431",
-                "nombre": "SUC LINDAVISTA MEXICO02",
-                "domicilio": "MONTEVIDEO 374",
-                "cp": 7300,
-                "tipoUnidad": "SUCURSAL",
-                "ciudades": {
-                  "id" : null,
-                  "claveEntidad" : null,
-                  "claveMunicipio" : null,
-                  "claveLocalidad" : null,
-                  "nombreLocalidad" null,
-                  "latitud": "19.4908",
-                  "longitud": "-99.13455",
-                },
-                "incidencias": []
-              }
+            "codigo": "NM0722",
+            "nombre": "SUC LINDAVISTA MEXICO",
+            "domicilio": "AVE. MONTEVIDEO # 374 ESQ TRUJILLO",
+            "cp": 7300,
+            "tipoUnidad": "SUCURSAL",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+              "latitud": "19.4908",
+              "longitud": "-99.13455"
+            },
+            "incidencias": []
+          },
+          {
+            "codigo": "N20838",
+            "nombre": "Lindavista México II",
+            "domicilio": "AV MONTEVIDEO ESQ. TRUJILLO 374",
+            "cp": 7300,
+            "tipoUnidad": "SUCURSAL",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+              "latitud": "19.4908",
+              "longitud": "-99.13455"
+            },
+            "incidencias": [
+              { "nombre": "Pantalla rota", "cantidad": 2 },
+              { "nombre": "Teclado sucio", "cantidad": 2 },
+              { "nombre": "Sin dinero", "cantidad": 1 }
             ]
           },
           {
-            "latitud": "19.4818",
-            "longitud": "-99.13553",
-            "distanciaCajeros": 1.396211513006,
-            "cajeros": [
-              {
-                "codigo": "N20673",
-                "nombre": "HOSPITAL JUAREZ III",
-                "domicilio": "AV POLITECNICO NACIONAL 5160",
-                "cp": 7760,
-                "tipoUnidad": "EMPRESA",
-                "ciudades": {
-                  "id" : null,
-                  "claveEntidad" : null,
-                  "claveMunicipio" : null,
-                  "claveLocalidad" : null,
-                  "nombreLocalidad" null,
-                  "latitud": "19.4818",
-                  "longitud": "-99.13553",
-                },
-                "incidencias": [
-                  { "nombre": "Pantalla rota", "cantidad": 1 },
-                  { "nombre": "Sin dinero", "cantidad": 1 }
-                ]
-              }
+            "codigo": "N22432",
+            "nombre": "SUC LINDAVISTA MEXICO03",
+            "domicilio": "MONTEVIDEO 374",
+            "cp": 7300,
+            "tipoUnidad": "SUCURSAL",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+              "latitud": "19.4908",
+              "longitud": "-99.13455"
+            },
+            "incidencias": []
+          },
+          {
+            "codigo": "N22430",
+            "nombre": "SUC LINDAVISTA MEXICO01",
+            "domicilio": "MONTEVIDEO 374",
+            "cp": 7300,
+            "tipoUnidad": "SUCURSAL",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+              "latitud": "19.4908",
+              "longitud": "-99.13455"
+            },
+            "incidencias": [
+              { "nombre": "Pantalla rota", "cantidad": 1 }
             ]
           },
+          {
+            "codigo": "N22431",
+            "nombre": "SUC LINDAVISTA MEXICO02",
+            "domicilio": "MONTEVIDEO 374",
+            "cp": 7300,
+            "tipoUnidad": "SUCURSAL",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+              "latitud": "19.4908",
+              "longitud": "-99.13455"
+            },
+            "incidencias": []
+          }
         ]
+      },
+      {
+        "latitud": "19.4818",
+        "longitud": "-99.13553",
+        "distanciaCajeros": 1.396211513006,
+        "cajeros": [
+          {
+            "codigo": "N20673",
+            "nombre": "HOSPITAL JUAREZ III",
+            "domicilio": "AV POLITECNICO NACIONAL 5160",
+            "cp": 7760,
+            "tipoUnidad": "EMPRESA",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+              "latitud": "19.4818",
+              "longitud": "-99.13553"
+            },
+            "incidencias": [
+              { "nombre": "Pantalla rota", "cantidad": 1 },
+              { "nombre": "Sin dinero", "cantidad": 1 }
+            ]
+          }
+        ]
+      }
+    ]
   },
 
   "guardar": [
@@ -223,16 +222,16 @@
   "buscarCrFound": {
     "responseCode": 200,
     "descripcion": "CR encontrado",
-    "resultado" : {
-       "existeCr": true
+    "resultado": {
+      "existeCr": true
     }
   },
 
   "buscarCrNotFound": {
     "responseCode": 404,
     "descripcion": "CR no encontrado",
-      "resultado" : {
-       "existeCr": false
+    "resultado": {
+      "existeCr": false
     }
   }
 }
