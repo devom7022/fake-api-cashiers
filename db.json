@@ -166,7 +166,8 @@
               "longitud": "-99.144555"
             },
             "incidencias": [
-              { "nombre": "Sin dinero", "cantidad": 1 }
+                           { "nombre": "No enciende", "cantidad": 2 }
+              { "nombre": "Sin dinero", "cantidad": 300 }
             ]
           },
           {
@@ -357,7 +358,7 @@
         "longitud": "-100.2800615"
             },
             "incidencias": [
-              { "nombre": "Pantalla rota", "cantidad": 1 }
+              { "nombre": "Pantalla rota", "cantidad": 200 }
             ]
           },
           {
