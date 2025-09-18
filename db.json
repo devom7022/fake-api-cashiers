@@ -166,7 +166,7 @@
               "longitud": "-99.144555"
             },
             "incidencias": [
-                           { "nombre": "No enciende", "cantidad": 2 }
+                           { "nombre": "No enciende", "cantidad": 2 },
               { "nombre": "Sin dinero", "cantidad": 300 }
             ]
           },
