@@ -145,8 +145,8 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-        "latitud": "19.533838",
-        "longitud": "-99.144555",
+              "latitud": "19.533838",
+              "longitud": "-99.144555"
             },
             "incidencias": []
           },
@@ -162,9 +162,8 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-
-        "latitud": "19.533838",
-        "longitud": "-99.144555",
+              "latitud": "19.533838",
+              "longitud": "-99.144555"
             },
             "incidencias": [
               { "nombre": "Sin dinero", "cantidad": 1 }
@@ -182,9 +181,8 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-
-        "latitud": "19.533838",
-        "longitud": "-99.144555",
+              "latitud": "19.533838",
+              "longitud": "-99.144555"
             },
             "incidencias": [
               { "nombre": "Pantalla rota", "cantidad": 2 },
@@ -204,8 +202,8 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-             "latitud": "19.533838",
-        "longitud": "-99.144555",
+              "latitud": "19.533838",
+              "longitud": "-99.144555"
             },
             "incidencias": []
           },
@@ -222,7 +220,7 @@
               "claveLocalidad": null,
               "nombreLocalidad": null,
               "latitud": "19.533838",
-        "longitud": "-99.144555",
+              "longitud": "-99.144555"
             },
             "incidencias": [
               { "nombre": "Pantalla rota", "cantidad": 1 }
@@ -240,12 +238,12 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-           "latitud": "19.533838",
-        "longitud": "-99.144555",
+              "latitud": "19.533838",
+              "longitud": "-99.144555"
             },
             "incidencias": []
           },
-           {
+          {
             "codigo": "N11353",
             "nombre": "SUC TORRE DEL SUR 3",
             "domicilio": "REVOLUCION,SUR 3000",
@@ -257,8 +255,8 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-           "latitud": "19.533838",
-        "longitud": "-99.144555",
+              "latitud": "19.533838",
+              "longitud": "-99.144555"
             },
             "incidencias": []
           }
@@ -266,7 +264,6 @@
       }
     ]
   },
-
   "guardar": [
     {
       "id": 1,
@@ -275,7 +272,6 @@
       "resultado": []
     }
   ],
-
   "encuesta": [
     {
       "id": 1,
@@ -285,13 +281,11 @@
       "fechaCreacion": "2025-07-16T12:31:00Z"
     }
   ],
-
   "encuestaRespuesta": {
     "responseCode": 200,
     "descripcion": "Operación exitosa",
     "finalizado": true
   },
-
   "seguimientos": {
     "responseCode": 200,
     "descripcion": "Operación exitosa",
@@ -328,33 +322,28 @@
       }
     ]
   },
-
   "sucursalAsignadaExito": {
     "responseCode": 200,
     "descripcion": "Sucursal asignada correctamente",
     "branchAssigned": true,
     "message": ""
   },
-
   "sucursalAsignadaNotFound": {
     "responseCode": 404,
     "descripcion": "No se encontró la sucursal",
     "branchAssigned": false,
     "message": ""
   },
-
   "sucursalAsignadaError": {
     "responseCode": 400,
     "descripcion": "Solicitud inválida",
     "branchAssigned": false,
     "error": "No pudimos encontrar el CR proporcionado"
   },
-
   "primerAcceso": {
     "responseCode": 200,
     "descripcion": "Operación exitosa"
   },
-
   "buscarCrFound": {
     "responseCode": 200,
     "descripcion": "CR encontrado",
@@ -362,7 +351,6 @@
       "existeCr": true
     }
   },
-
   "buscarCrNotFound": {
     "responseCode": 404,
     "descripcion": "CR no encontrado",
