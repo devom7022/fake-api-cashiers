@@ -127,6 +127,142 @@
             ]
           }
         ]
+      },
+      {
+        "latitud": "19.533838",
+        "longitud": "-99.144555",
+        "distanciaCajeros": 1.109223,
+        "cajeros": [
+          {
+            "codigo": "N10168",
+            "nombre": "AUTOBANCO TORRE SUR",
+            "domicilio": "AV. REVOLUCION 3000",
+            "cp": 9000,
+            "tipoUnidad": "SUCURSAL",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+        "latitud": "19.533838",
+        "longitud": "-99.144555",
+            },
+            "incidencias": []
+          },
+          {
+            "codigo": "N11296",
+            "nombre": "TORRE SUR IV",
+            "domicilio": "AV. REVOLUCION 3000",
+            "cp": 7300,
+            "tipoUnidad": "ADQUIRIENTE",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+
+        "latitud": "19.533838",
+        "longitud": "-99.144555",
+            },
+            "incidencias": [
+              { "nombre": "Sin dinero", "cantidad": 1 }
+            ]
+          },
+          {
+            "codigo": "N11441",
+            "nombre": "SUC TORRE DEL SUR 5",
+            "domicilio": "REVOLUCION,SUR 3000",
+            "cp": 7300,
+            "tipoUnidad": "SUCURSAL",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+
+        "latitud": "19.533838",
+        "longitud": "-99.144555",
+            },
+            "incidencias": [
+              { "nombre": "Pantalla rota", "cantidad": 2 },
+              { "nombre": "Teclado sucio", "cantidad": 2 },
+              { "nombre": "Sin dinero", "cantidad": 1 }
+            ]
+          },
+          {
+            "codigo": "N10308",
+            "nombre": "TORRE BANORTE III",
+            "domicilio": "AV. REVOLUCION SUR, ESQ. COVARRUBIAS 3000",
+            "cp": 9000,
+            "tipoUnidad": "ADQUIRIENTE",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+             "latitud": "19.533838",
+        "longitud": "-99.144555",
+            },
+            "incidencias": []
+          },
+          {
+            "codigo": "N11351",
+            "nombre": "SUC TORRE DEL SUR 1",
+            "domicilio": "REVOLUCION,SUR 3000",
+            "cp": 7300,
+            "tipoUnidad": "SUCURSAL",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+              "latitud": "19.533838",
+        "longitud": "-99.144555",
+            },
+            "incidencias": [
+              { "nombre": "Pantalla rota", "cantidad": 1 }
+            ]
+          },
+          {
+            "codigo": "N11352",
+            "nombre": "SUC TORRE DEL SUR 2",
+            "domicilio": "REVOLUCION,SUR 3000",
+            "cp": 7300,
+            "tipoUnidad": "SUCURSAL",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+           "latitud": "19.533838",
+        "longitud": "-99.144555",
+            },
+            "incidencias": []
+          },
+           {
+            "codigo": "N11353",
+            "nombre": "SUC TORRE DEL SUR 3",
+            "domicilio": "REVOLUCION,SUR 3000",
+            "cp": 7300,
+            "tipoUnidad": "SUCURSAL",
+            "ciudades": {
+              "id": null,
+              "claveEntidad": null,
+              "claveMunicipio": null,
+              "claveLocalidad": null,
+              "nombreLocalidad": null,
+           "latitud": "19.533838",
+        "longitud": "-99.144555",
+            },
+            "incidencias": []
+          }
+        ]
       }
     ]
   },
