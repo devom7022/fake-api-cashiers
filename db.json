@@ -1,4 +1,4 @@
- {
+{
   "sucursal": {
     "responseCode": 200,
     "descripcion": "Operación exitosa",
@@ -166,7 +166,7 @@
               "longitud": "-99.144555"
             },
             "incidencias": [
-                           { "nombre": "No enciende", "cantidad": 2 },
+              { "nombre": "No enciende", "cantidad": 2 },
               { "nombre": "Sin dinero", "cantidad": 300 }
             ]
           },
@@ -280,8 +280,8 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-                "latitud": "25.648369",
-        "longitud": "-100.2800615"
+              "latitud": "25.648369",
+              "longitud": "-100.2800615"
             },
             "incidencias": []
           },
@@ -297,8 +297,8 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-  "latitud": "25.648369",
-        "longitud": "-100.2800615"
+              "latitud": "25.648369",
+              "longitud": "-100.2800615"
             },
             "incidencias": [
               { "nombre": "Sin dinero", "cantidad": 1 }
@@ -316,8 +316,8 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-  "latitud": "25.648369",
-        "longitud": "-100.2800615"
+              "latitud": "25.648369",
+              "longitud": "-100.2800615"
             },
             "incidencias": [
               { "nombre": "Pantalla rota", "cantidad": 2 },
@@ -337,8 +337,8 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-       "latitud": "25.648369",
-        "longitud": "-100.2800615"
+              "latitud": "25.648369",
+              "longitud": "-100.2800615"
             },
             "incidencias": []
           },
@@ -354,8 +354,8 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-    "latitud": "25.648369",
-        "longitud": "-100.2800615"
+              "latitud": "25.648369",
+              "longitud": "-100.2800615"
             },
             "incidencias": [
               { "nombre": "Pantalla rota", "cantidad": 200 }
@@ -373,8 +373,8 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-        "latitud": "25.648369",
-        "longitud": "-100.2800615"
+              "latitud": "25.648369",
+              "longitud": "-100.2800615"
             },
             "incidencias": []
           },
@@ -390,8 +390,8 @@
               "claveMunicipio": null,
               "claveLocalidad": null,
               "nombreLocalidad": null,
-        "latitud": "25.648369",
-        "longitud": "-100.2800615"
+              "latitud": "25.648369",
+              "longitud": "-100.2800615"
             },
             "incidencias": []
           }
@@ -499,39 +499,39 @@
     "resultado": [
       {
         "dia": "11/10/2021",
-       "android" : 2,
-       "ios": 6
+        "android": 2,
+        "ios": 6
       },
-     {
-       "dia": "12/10/2021",
-       "android" : 9,
-       "ios": 1
-     },
-     {
-       "dia": "13/10/2021",
-       "android" : 0,
-       "ios": 13
-     },
-     {
-        "dia": "14/10/2021",
-       "android" : 20,
-       "ios": 0
-      },
-     {
-       "dia": "15/10/2021",
-       "android" : 63,
-       "ios": 39
-     },
-     {
-       "dia": "16/10/2021",
-       "android" : 4,
-       "ios": 31
-     },
       {
-       "dia": "17/10/2021",
-       "android" : 14,
-       "ios": 10
-     }
+        "dia": "12/10/2021",
+        "android": 9,
+        "ios": 1
+      },
+      {
+        "dia": "13/10/2021",
+        "android": 0,
+        "ios": 13
+      },
+      {
+        "dia": "14/10/2021",
+        "android": 20,
+        "ios": 0
+      },
+      {
+        "dia": "15/10/2021",
+        "android": 63,
+        "ios": 39
+      },
+      {
+        "dia": "16/10/2021",
+        "android": 4,
+        "ios": 31
+      },
+      {
+        "dia": "17/10/2021",
+        "android": 14,
+        "ios": 10
+      }
     ]
   }
 }
