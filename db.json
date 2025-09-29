@@ -451,5 +451,15 @@
       { "dia": "16/10/2021", "android": 4, "ios": 31 },
       { "dia": "17/10/2021", "android": 14, "ios": 10 }
     ]
+  },
+  "usuarios" : {
+    "responseCode": 200,
+    "descripcion": "Operación exitosa",
+    "resultado": [
+      { "usuario": "A8038533", "nombre": 2, "email": "A8038533@banorte.com","reportes": 12, "android" },
+      { "usuario": "A8038233", "nombre": 2, "email": "A8038233@banorte.com","reportes": 2, "android" },
+      { "usuario": "A8039024", "nombre": 2, "email": "A8039024@banorte.com","reportes": 1, "android" },
+      { "usuario": "A8034522", "nombre": 2, "email": "A8034522@banorte.com","reportes": 40, "android" }
+    ]
   }
 }
