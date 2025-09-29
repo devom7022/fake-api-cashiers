@@ -492,5 +492,46 @@
     "resultado": {
       "existeCr": false
     }
+  },
+  "reportes": {
+    "responseCode": 200,
+    "descripcion": "Operación exitosa",
+    "resultado": [
+      {
+        "dia": "11/10/2021",
+       "android" : 2,
+       "ios": 6
+      },
+     {
+       "dia": "12/10/2021",
+       "android" : 9,
+       "ios": 1
+     },
+     {
+       "dia": "13/10/2021",
+       "android" : 0,
+       "ios": 13
+     },
+     {
+        "dia": "14/10/2021",
+       "android" : 20,
+       "ios": 0
+      },
+     {
+       "dia": "15/10/2021",
+       "android" : 63,
+       "ios": 39
+     },
+     {
+       "dia": "16/10/2021",
+       "android" : 4,
+       "ios": 31
+     },
+      {
+       "dia": "17/10/2021",
+       "android" : 14,
+       "ios": 10
+     }
+    ]
   }
 }
