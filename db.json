@@ -438,5 +438,18 @@
   "sucursalAsignadaError": { "responseCode": 400, "descripcion": "Solicitud inválida", "branchAssigned": false, "error": "No pudimos encontrar el CR proporcionado" },
   "primerAcceso": { "responseCode": 200, "descripcion": "Operación exitosa" },
   "buscarCrFound": { "responseCode": 200, "descripcion": "CR encontrado", "resultado": { "existeCr": true } },
-  "buscarCrNotFound": { "responseCode": 404, "descripcion": "CR no encontrado", "resultado": { "existeCr": false } }
+  "buscarCrNotFound": { "responseCode": 404, "descripcion": "CR no encontrado", "resultado": { "existeCr": false } },
+  "reportes": {
+    "responseCode": 200,
+    "descripcion": "Operación exitosa",
+    "resultado": [
+      { "dia": "11/10/2021", "android": 2, "ios": 6 },
+      { "dia": "12/10/2021", "android": 9, "ios": 1 },
+      { "dia": "13/10/2021", "android": 0, "ios": 13 },
+      { "dia": "14/10/2021", "android": 20, "ios": 0 },
+      { "dia": "15/10/2021", "android": 63, "ios": 39 },
+      { "dia": "16/10/2021", "android": 4, "ios": 31 },
+      { "dia": "17/10/2021", "android": 14, "ios": 10 }
+    ]
+  }
 }
