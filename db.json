@@ -459,6 +459,13 @@
       { "usuario": "A8038533", "nombre": "Benito Lugo", "email": "A8038533@banorte.com","reportes": 12, "sistema": "android" },
       { "usuario": "A8038233", "nombre": "Fermin Perez", "email": "A8038233@banorte.com","reportes": 2, "sistema":"ios" },
       { "usuario": "A8039024", "nombre": "Eduardo Jara", "email": "A8039024@banorte.com","reportes": 1, "sistema":"ios" },
+      { "usuario": "A8034522", "nombre": "Gael Hernandez", "email": "A8034522@banorte.com","reportes": 40, "sistema":"android" },
+      { "usuario": "A8038533", "nombre": "Benito Lugo", "email": "A8038533@banorte.com","reportes": 12, "sistema": "android" },
+      { "usuario": "A8038233", "nombre": "Fermin Perez", "email": "A8038233@banorte.com","reportes": 2, "sistema":"ios" },
+      { "usuario": "A8039024", "nombre": "Eduardo Jara", "email": "A8039024@banorte.com","reportes": 1, "sistema":"ios" },
+      { "usuario": "A8034522", "nombre": "Gael Hernandez", "email": "A8034522@banorte.com","reportes": 40, "sistema":"android" },
+      { "usuario": "A8038233", "nombre": "Fermin Perez", "email": "A8038233@banorte.com","reportes": 2, "sistema":"ios" },
+      { "usuario": "A8039024", "nombre": "Eduardo Jara", "email": "A8039024@banorte.com","reportes": 1, "sistema":"ios" },
       { "usuario": "A8034522", "nombre": "Gael Hernandez", "email": "A8034522@banorte.com","reportes": 40, "sistema":"android" }
     ]
   }
